@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".TenisActivity">
+
+    <EditText
+        android:id="@+id/txtMarca"
+        android:hint="marca"
+        style="@style/TextoRegular"
+        android:backgroundTint="#5D82DF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/txtValor"
+        android:hint="valor"
+        style="@style/TextoRegular"
+        android:numeric="integer"
+        android:backgroundTint="#5D82DF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/txtModelo"
+        android:hint="modelo"
+        style="@style/TextoRegular"
+        android:backgroundTint="#5D82DF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/spiSize"
+        android:layout_marginTop="3dp"
+        android:backgroundTint="#5D82DF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnExcluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#5D82DF"
+        android:text="Excluir" />
+
+</LinearLayout>
